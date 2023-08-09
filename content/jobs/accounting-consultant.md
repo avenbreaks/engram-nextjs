@@ -11,6 +11,7 @@ meta:
   title: Accounting Consultant - part-time job
 ---
 
+
 ## The team
 
 Swarm Foundation (SF) is a non-profit organization established in 2021 in Switzerland. It is a key organization at the forefront of decentralized storage and blockchain. The foundation’s mission is to empower digital freedom by promoting the development and maintenance of the Swarm network and its community. Swarm Foundation does so by supporting many different initiatives worldwide, either through financial grants or other types of support. The Operations team drives the core activities that allow Swarm Foundation achieve its mission on a daily basis, either by maintaining the functioning processes or creating new ones, when needed.
