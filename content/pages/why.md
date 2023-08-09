@@ -2,8 +2,7 @@
 meta:
   title: Why & How
 sections:
-  - template: section
-    type: Section
+  - type: Section
     data:
       hero:
         title: World Wide Swarm
@@ -13,62 +12,60 @@ sections:
           store the world’s data.
         background:
           src: /assets/hero/wws.png
-          alt: ""
-          position: ""
+          alt: ''
+          position: ''
         ctas:
-          - template: cta
-            arrow: true
+          - arrow: true
             type: default
             title: Book of Swarm
             background: orange
-            href: "https://www.ethswarm.org/The-Book-of-Swarm.pdf"
-          - template: cta
-            arrow: true
+            href: 'https://www.ethswarm.org/The-Book-of-Swarm.pdf'
+            template: cta
+          - arrow: true
             type: default
             title: Whitepaper
-            href: "https://www.ethswarm.org/swarm-whitepaper.pdf"
+            href: 'https://www.ethswarm.org/swarm-whitepaper.pdf'
             background: transparent
-        footnote: ""
+            template: cta
+        footnote: ''
       items:
-        - template: section_item
-          contentWidth: full
+        - contentWidth: full
           features:
             type: default
             columns: three
             features:
-              - template: feature
-                cta:
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Permissionless and private
                 content: >-
                   Censorship resistant and private by design, Swarm nodes will
                   provide leak proof messaging and private, unfiltered access to
                   data via a distributed network.
                 icon: LockIcon
-              - template: feature
-                cta:
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Leak-proof messaging made real
                 content: >-
                   The third element of the Ethereum trinity, Whisper, has also
                   been incorporated into Swarm as PSS, bringing the possibility
                   of truly leak proof messaging for full nodes.
                 icon: LeakIcon
-              - template: feature
-                cta:
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Built for builders
                 content: >-
                   With powerful primitives such as Single Owner Chunks and
@@ -76,13 +73,13 @@ sections:
                   fertile basis for you to build never before seen completely
                   decentralised applications.
                 icon: NutIcon
-              - template: feature
-                cta:
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Completely decentralised
                 content: >-
                   Swarm exists so the internet can again be decentralised.
@@ -91,13 +88,13 @@ sections:
                   self-sustaining infrastructure for a supply-chain economy of
                   data.
                 icon: OpenIcon
-              - template: feature
-                cta:
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Scalable with zero hosting costs
                 content: >-
                   Cost of hosting stays same no matter if the content or dapp is
@@ -105,37 +102,37 @@ sections:
                   incentives of the network. No more VCs or monetisation needed
                   in order to support popular dapps or content.
                 icon: BoxArrowIcon
-              - template: feature
-                cta:
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Public interest
                 content: >-
                   Since anyone can contribute, Swarm establishes a system for
                   important data commons such as Open Street Maps data to be
                   collectively funded by the public.
                 icon: HeartIcon
+                template: feature
           title: Why Swarm
-          content: ""
-          image: ""
+          content: ''
+          image: ''
           ctas: []
-          code: ""
-        - template: section_item
-          contentWidth: full
+          code: ''
+          template: section-item
+        - contentWidth: full
           features:
             type: large
             columns: two
             features:
-              - template: feature
-                cta:
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Kademlia Routing
                 content: >-
                   Nodes use Kademlia routing to arrange themselves in a regular
@@ -143,13 +140,13 @@ sections:
                   forwarding chunks based on the addressing scheme. This means
                   that all nodes can access all of the data in the swarm.
                 icon: RouteIcon
-              - template: feature
-                cta:
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Push
                 content: >-
                   When data is uploaded to the swarm, it is split into 4kb
@@ -158,13 +155,13 @@ sections:
                   storing them. This distributes data evenly across the swarm
                   network.
                 icon: PushIcon
-              - template: feature
-                cta:
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Pull
                 content: >-
                   When each full node joins the swarm it becomes part of a
@@ -173,13 +170,13 @@ sections:
                   node is able to serve up chunks that are close to its address
                   when requested by the retrieval protocol.
                 icon: PullIcon
-              - template: feature
-                cta:
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Retrieval
                 content: >-
                   The retrieval protocol routes each node’s request for chunks
@@ -187,6 +184,7 @@ sections:
                   way, every node in the swarm is able to access chunks from
                   their neighbourhood of responsibility.
                 icon: RetrieveIcon
+                template: feature
           title: How it works
           content: >-
             Swarm provides a native data storage capability that plays nice with
@@ -194,19 +192,21 @@ sections:
             verify data structures that are contained within its distributed
             DISC.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Book of Swarm
-              href: "https://www.ethswarm.org/The-Book-of-Swarm.pdf"
+              href: 'https://www.ethswarm.org/The-Book-of-Swarm.pdf'
               background: orange
-            - template: cta
-              arrow: true
+              template: cta
+            - arrow: true
               type: default
               title: Whitepaper
-              href: "https://www.ethswarm.org/swarm-whitepaper.pdf"
+              href: 'https://www.ethswarm.org/swarm-whitepaper.pdf'
               background: transparent
-          image: ""
-          code: ""
-_template: page
+              template: cta
+          image: ''
+          code: ''
+          template: section-item
+    template: section
 ---
+
