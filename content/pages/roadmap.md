@@ -2,8 +2,7 @@
 meta:
   title: Roadmap
 sections:
-  - template: section
-    type: Section
+  - type: Section
     data:
       hero:
         title: Roadmap
@@ -16,36 +15,35 @@ sections:
           to the broader Swarm community.
         background:
           src: /assets/hero/roadmap2.png
-          alt: ""
-          position: ""
+          alt: ''
+          position: ''
         ctas: []
-        footnote: ""
+        footnote: ''
       items: []
-  - template: roadmap
-    type: Roadmap
+    template: section
+  - type: Roadmap
     data:
       border: true
       id: milestone
       sidebar:
-        content: "Currently, the Swarm Foundation team is working on **Milestone3**."
+        content: 'Currently, the Swarm Foundation team is working on **Milestone3**.'
         ctas: []
       items:
-        - template: roadmap_item
-          status: completed
+        - status: completed
           title: 1. Host unstoppable content on Swarm
           content: >-
             Uploading and downloading content such as websites or nft- data is
             optimised and predictable. This functionality can be accessed
             through all Swarm products.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Release info
               href: /milestone1
               background: transparent
-        - template: roadmap_item
-          status: completed
+              template: cta
+          template: roadmap-item
+        - status: completed
           title: >-
             2. Setting up and interacting with a Bee node is optimised for
             ease-of-use
@@ -53,14 +51,14 @@ sections:
             Any crypto enthusiast with an interest in Swarm can set up and run a
             Bee node easily.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Release info
               href: /milestone2
               background: transparent
-        - template: roadmap_item
-          status: in-progress
+              template: cta
+          template: roadmap-item
+        - status: in-progress
           title: >-
             3. Node-operators are directly rewarded for contributing their
             storage space
@@ -69,40 +67,39 @@ sections:
             optimised and predictable. This functionality can be accessed
             through all Swarm products.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Release info
               href: /milestone3
               background: transparent
-        - template: roadmap_item
-          status: next-up
+              template: cta
+          template: roadmap-item
+        - status: next-up
           title: 4. Optimisation for larger data uploads
           content: Uploading and downloading bigger files and datasets is optimised.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Release info
               href: /milestone4
               background: transparent
-  - template: section
-    type: Section
+              template: cta
+          template: roadmap-item
+    template: roadmap
+  - type: Section
     data:
       items:
-        - template: section_item
-          contentWidth: full
+        - contentWidth: full
           features:
             type: default
             columns: three
             features:
-              - template: feature
-                cta:
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: End Users
                 content: >-
                   End users have a smooth experience starting a node and have
@@ -110,14 +107,14 @@ sections:
                   connect to nodes and gateways in a secure way. Basic
                   functionality of websites (files and directories) upload and
                   download is optimised for speed and reliability.
-                icon: ""
-              - template: feature
-                cta:
+                icon: ''
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Dapp Developers
                 content: >-
                   Dapp Developers are provided with a mature toolkit that can be
@@ -126,14 +123,14 @@ sections:
                   tutorials. They benefit from dashboards monitoring vital
                   metrics displaying the node's operational health. Developers
                   can rely on help provided in dev channels.
-                icon: ""
-              - template: feature
-                cta:
+                icon: ''
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 content: >-
                   Node operators are sufficiently incentivised to contribute
                   their bandwidth and storage space. Time-based allowance is
@@ -143,14 +140,14 @@ sections:
                   without the need for storage contributors to stake their
                   tokens.
                 title: Operators
-                icon: ""
-              - template: feature
-                cta:
+                icon: ''
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Collaborators
                 content: >-
                   Alternative client development is supported by consolidated
@@ -159,14 +156,14 @@ sections:
                   documented. Integration, multiclient testing environment and
                   quality assurance tools are provided. Ecosystem projects are
                   provided with grants and fellowships.
-                icon: ""
-              - template: feature
-                cta:
+                icon: ''
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 title: Community
                 content: >-
                   The Swarm Foundation aims to assist as much as it can in
@@ -174,25 +171,28 @@ sections:
                   agenda involving Swarm. It encourages autonomous, independent
                   and permissionless communities to take further ownership over
                   the protocol and its usages.
-                icon: ""
-              - template: feature
-                cta:
+                icon: ''
+                template: feature
+              - cta:
                   arrow: true
                   background: []
                   type: default
-                  title: ""
-                  href: ""
+                  title: ''
+                  href: ''
                 content: >-
                   The Foundation subsidises efforts to make large datasets of
                   public interest available through Swarm.
                 title: Commons
-                icon: ""
+                icon: ''
+                template: feature
           title: Vision
           content: >-
             A recap of the ideal experience of various participants in the
             network:
-          image: ""
+          image: ''
           ctas: []
-          code: ""
-_template: page
+          code: ''
+          template: section-item
+    template: section
 ---
+
