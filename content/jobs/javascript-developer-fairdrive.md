@@ -12,6 +12,7 @@ meta:
   title: JavaScript Developer for Fairdrive protocol - Jobs
 ---
 
+
 Please note, this is a pipeline builder announcement, preparing for the upcoming demand. Feel free to submit your application so we can get back to you as soon as the role is open.
 
 Swarm is a system of peer-to-peer networked nodes for a decentralised storage and communication service.
