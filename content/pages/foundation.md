@@ -2,8 +2,7 @@
 meta:
   title: Foundation
 sections:
-  - template: section
-    type: Section
+  - type: Section
     data:
       hero:
         title: We are Swarm
@@ -13,15 +12,14 @@ sections:
           2021, based in Switzerland.
         ctas: []
         background:
-          src: ""
-          alt: ""
-          position: ""
-        footnote: ""
+          src: ''
+          alt: ''
+          position: ''
+        footnote: ''
       items:
-        - template: section_item
-          contentWidth: full
+        - contentWidth: full
           features:
-            columns: ""
+            columns: ''
             type: default
             features: []
           title: About Swarm Foundation
@@ -51,12 +49,12 @@ sections:
             Association, to support the Swarm community, educate the public
             about decentralised technology, its appropriate uses, and to keep
             the technology neutral.
-          image: ""
+          image: ''
           ctas: []
-          code: ""
-          tagline: ""
-        - template: section_item
-          contentWidth: full
+          code: ''
+          tagline: ''
+          template: section-item
+        - contentWidth: full
           features:
             columns: []
             type: default
@@ -88,12 +86,12 @@ sections:
             oneself – for a fair data society. Given the growing importance of
             data ethics, we believe other projects will follow and join our
             efforts.
-          image: ""
+          image: ''
           ctas: []
-          code: ""
-          tagline: ""
-        - template: section_item
-          contentWidth: half
+          code: ''
+          tagline: ''
+          template: section-item
+        - contentWidth: half
           features:
             columns: []
             type: default
@@ -106,12 +104,12 @@ sections:
             Fatemeh Fannizadeh, Member of the Board
             Edina Lovas, Member of the Board
             Alexis Roussel, Member of the Board
-          image: ""
+          image: ''
           ctas: []
-          code: ""
-          tagline: ""
-        - template: section_item
-          contentWidth: half
+          code: ''
+          tagline: ''
+          template: section-item
+        - contentWidth: half
           features:
             columns: []
             type: default
@@ -128,10 +126,12 @@ sections:
             Switzerland
 
             UID Registration number: CHE-190.844.260, Canton of Neuchâtel
-          image: ""
+          image: ''
           ctas: []
-          code: ""
-          tagline: ""
+          code: ''
+          tagline: ''
+          template: section-item
       disclaimer: false
-_template: page
+    template: section
 ---
+
