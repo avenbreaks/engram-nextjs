@@ -2,8 +2,7 @@
 meta:
   title: Build
 sections:
-  - template: section
-    type: Section
+  - type: Section
     data:
       hero:
         title: Build
@@ -15,16 +14,15 @@ sections:
         ctas: []
         background:
           src: /assets/hero/build.png
-          alt: ""
-          position: ""
-        footnote: ""
+          alt: ''
+          position: ''
+        footnote: ''
       items:
-        - template: section_item
-          contentWidth: half
+        - contentWidth: half
           features:
             columns: []
             features: []
-            type: ""
+            type: ''
           title: Bee
           content: >-
             Bee is a peer-to-peer client that connects you with other peers all
@@ -33,40 +31,40 @@ sections:
             world's data. Running a full Bee node gives you all the
             functionalities of Swarm.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Get the Documentation
-              href: "https://docs.ethswarm.org/docs/dapps-on-swarm/introduction"
+              href: 'https://docs.ethswarm.org/docs/dapps-on-swarm/introduction'
               background: transparent
-          image: ""
+              template: cta
+          image: ''
           code: Bee
-        - template: section_item
-          contentWidth: half
+          template: section-item
+        - contentWidth: half
           features:
             columns: []
             features: []
-            type: ""
+            type: ''
           title: Bee-js
           content: >-
             Bee-js is Bee’s complementary JavaScript library. It’s a powerful
             tool for building completely decentralised apps with just a few
             lines of code.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Get the Documentation
-              href: "https://bee-js.ethswarm.org/docs/"
+              href: 'https://bee-js.ethswarm.org/docs/'
               background: transparent
-          image: ""
+              template: cta
+          image: ''
           code: Bee-js
-        - template: section_item
-          contentWidth: half
+          template: section-item
+        - contentWidth: half
           features:
             columns: []
             features: []
-            type: ""
+            type: ''
           title: Swarm-CLI
           content: >-
             Manage your Bee node and interact with the Swarm network in the
@@ -76,36 +74,36 @@ sections:
             swarm-cli, postage stamps management from the command line, and
             automation.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Read more on Github
-              href: "https://github.com/ethersphere/swarm-cli"
+              href: 'https://github.com/ethersphere/swarm-cli'
               background: transparent
-          image: ""
+              template: cta
+          image: ''
           code: Swarm-CLI
-        - template: section_item
-          contentWidth: half
+          template: section-item
+        - contentWidth: half
           features:
             columns: []
             features: []
-            type: ""
+            type: ''
           title: Bee API
           content: >-
             The Bee API provides a HTTP interface with a rich set of endpoints
             for accessing data on the network - manage your node resources and
             get operational metrics and insights.
           ctas:
-            - template: cta
-              arrow: true
+            - arrow: true
               type: default
               title: Get the Documentation
-              href: "https://docs.ethswarm.org/api/"
+              href: 'https://docs.ethswarm.org/api/'
               background: transparent
-          image: ""
+              template: cta
+          image: ''
           code: Bee API
-        - template: section_item
-          contentWidth: full
+          template: section-item
+        - contentWidth: full
           title: Layer2 tooling through ecosystem initiatives
           content: |-
             Below are several ecosystem-based projects that enable faster
@@ -121,12 +119,11 @@ sections:
           features:
             columns: three
             features:
-              - template: feature
-                cta:
+              - cta:
                   arrow: true
                   type: default
                   title: Read more
-                  href: "https://docs.fairos.fairdatasociety.org/docs/"
+                  href: 'https://docs.fairos.fairdatasociety.org/docs/'
                   background: transparent
                 title: fairOS - run a database on top of Swarm
                 content: >-
@@ -134,13 +131,13 @@ sections:
                   directly on Swarm you can work with a distributed file system,
                   key-value database or database doc (multi-index). fairOS
                   provides developers a head start and a decentralised backend.
-                icon: ""
-              - template: feature
-                cta:
+                icon: ''
+                template: feature
+              - cta:
                   arrow: true
                   type: default
                   title: Test fairdrive
-                  href: "https://fairdrive.fairdatasociety.org/"
+                  href: 'https://fairdrive.fairdatasociety.org/'
                   background: transparent
                 title: fairDRIVE - data store for your users
                 content: >-
@@ -149,13 +146,13 @@ sections:
                   and read data from it, which enables users to reclaim, own and
                   manage their data while enabling developers to use it as a
                   white-label and save on development time.
-                icon: ""
-              - template: feature
-                cta:
+                icon: ''
+                template: feature
+              - cta:
                   arrow: true
                   type: default
                   title: Read more
-                  href: "https://fdp.fairdatasociety.org"
+                  href: 'https://fdp.fairdatasociety.org'
                   background: transparent
                 title: Fair data protocol - interoperability
                 content: >-
@@ -164,21 +161,24 @@ sections:
                   enabling interoperability. Currently, the project is under
                   intense development. The community can contribute to or
                   suggest improvements through Fair data improvement proposals.
-                icon: ""
+                icon: ''
+                template: feature
             type: default
           ctas: []
-          image: ""
-          code: ""
-  - template: section_cta
-    type: Cta
+          image: ''
+          code: ''
+          template: section-item
+    template: section
+  - type: Cta
     data:
-      title: "Join us! #develop-on-swarm room at our Discord Server"
+      title: 'Join us! #develop-on-swarm room at our Discord Server'
       ctas:
-        - template: cta
-          arrow: true
+        - arrow: true
           title: Participate
-          href: "https://discord.ethswarm.org/"
+          href: 'https://discord.ethswarm.org/'
           background: orange-onDark
           type: default
-_template: page
+          template: cta
+    template: section-cta
 ---
+
