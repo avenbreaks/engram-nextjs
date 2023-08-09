@@ -2,8 +2,7 @@
 meta:
   title: Milestone 1
 sections:
-  - template: section
-    type: Section
+  - type: Section
     data:
       hero:
         title: Milestone 1
@@ -16,18 +15,18 @@ sections:
         ctas: []
         footnote: ''
       items: []
-  - template: post
-    type: Post
+    template: section
+  - type: Post
     data:
       sidebar:
         ctas:
-          - template: cta
-            arrow: true
+          - arrow: true
             type: default
             title: All milestones
             href: /roadmap
             background: transparent
             back: true
+            template: cta
         content: ''
       content: >-
         ## Host unstoppable content on Swarm
@@ -83,6 +82,7 @@ sections:
 
         * Eventually forgetting content that is no longer relevant to preserve
       border: false
-_template: page
+    template: post
 ---
+
 
